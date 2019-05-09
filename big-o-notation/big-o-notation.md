@@ -28,7 +28,7 @@ matchMe([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10); // will return '10' in the 11th
 ```
 
 ## O(![n^2](https://latex.codecogs.com/gif.latex?n^{2})) - Quadratic Time Algorithm
-The algorithm's execution time will grow exponentially based on the size of the input data set. Worst case scenarion would be input data set size squared.
+The algorithm's execution time will grow based on the size of the input data set. Worst case scenarion would be input data set size squared.
 ### Example
 ``` 
 const matchMe = (listA, listB) => {
@@ -42,5 +42,10 @@ const matchMe = (listA, listB) => {
 };
 
 matchMe([0, 1, 2], [5, 4, 3, 2]); // will return 'true' in the 12th iteration
-matchMe([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [12, 11 ,10]); // will return '0' in the 33rd iteration```
+matchMe([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [12, 11 ,10]); // will return '0' in the 33rd iteration
+```
 
+## O(![2^n](https://latex.codecogs.com/gif.latex?2^{n})) - Exponential Time Algorithm
+The algorithm's execution time will double with each addition to the input data set
+
+## O(![logn](https://latex.codecogs.com/gif.latex?logn)) - Logarithmic Time Algorithm
